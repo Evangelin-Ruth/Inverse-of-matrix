@@ -29,6 +29,7 @@ a=np.linalg.inv(l2)
 print(a)
 ```
 ## OUTPUT:
+![inverse](https://user-images.githubusercontent.com/94219798/153698750-a6a9d772-2791-438b-8a3a-7a2f775ea5e6.JPG)
 
 ## RESULT:
 Thus the program is written to perform Inverse-of-matrix using python programming.
