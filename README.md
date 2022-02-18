@@ -15,18 +15,22 @@ Use nested lists to append list.
 Print the inverse of the array using np.linalg.inv
 ## PROGRAM:
 ```
+To write a python program to find the inverse of a matrix.
+Developed by:  Evangelin.S
+Register Number: 212221230025
+
 import numpy as np
-l1,l2=[],[]
-n1,n2=int(input()),int(input())
-for i in range(n1):
-    for j in range(n2):
-        values=int(input())
-        l1.append(values)
-    l2.append(l1)
-    l1=[]
-print(l2)
-a=np.linalg.inv(l2)
-print(a)
+rows=int(input())
+columns=int(input())
+l1=[]
+for i in range(rows):
+    temp=[]
+    for j in range(columns):
+        t=int(input())
+        temp+=[t]
+    l1+=[temp]
+print(l1)
+print(np.linalg.inv(l1))
 ```
 ## OUTPUT:
 ![inverse](https://user-images.githubusercontent.com/94219798/153698750-a6a9d772-2791-438b-8a3a-7a2f775ea5e6.JPG)
